@@ -1,0 +1,94 @@
+/* General */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #230312;
+    color: #fff;
+}
+
+/* Styles */
+h1{
+    text-align: center;
+    margin: 50px 0;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+}
+button{
+    border-radius: 5px;
+    padding: 6px 20px;
+    background-color: #ff5900;
+}
+#result{
+    text-align: center;
+}
+img{
+    margin-top: 50px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.zoom-out img {
+	-webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+img:hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+footer{
+    background-color: #ff5900;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+/* Effects */
+.typewriter {
+    font-family: Courier, monospace;
+    text-align: center;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+    color: #ff5900;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}

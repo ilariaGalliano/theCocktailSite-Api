@@ -1,0 +1,55 @@
+/* General */
+body{
+    background-color: #230312;
+    color: #fff;
+}
+
+/* Styles */
+h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 30px;
+}
+p{
+    padding-top: 12px;
+}
+a{
+    background-color: #ff5900;
+    margin-left: 10px;
+    color: #fff;
+    padding-right: 10px;
+    transition: all .2s ease-in-out; 
+}
+a:hover{
+    transform: scale(1.1);
+}
+i{
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+}
+.btn{
+    padding: 4px 10px;
+}
+.btn:hover{
+    color: #fff;
+}
+img{
+    width: 100%;
+}
+img:hover{
+    border-radius: 50%;
+    transition: border-radius 1s;
+}
+#drinks{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+footer{
+    background-color: #ff5900;
+    padding: 10px 0;
+    margin-top: 15px;
+}
